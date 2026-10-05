@@ -1,0 +1,5 @@
+[    8868ms] [WARNING] [EmbeddedServiceBootstrap] Warning: EmbeddedService Messaging Bootstrap may not function correctly with this native JS function modified: document.addEventListener @ https://assets.testmuai.com/resources/js/salesforce_chatwidget.js:26
+[    8868ms] [WARNING] [EmbeddedServiceBootstrap] Warning: EmbeddedService Messaging Bootstrap may not function correctly with this native JS function modified: document.removeEventListener @ https://assets.testmuai.com/resources/js/salesforce_chatwidget.js:26
+[    8868ms] [WARNING] [EmbeddedServiceBootstrap] Warning: EmbeddedService Messaging Bootstrap may not function correctly with this native JS function modified: window.addEventListener @ https://assets.testmuai.com/resources/js/salesforce_chatwidget.js:26
+[    8868ms] [WARNING] [EmbeddedServiceBootstrap] Warning: EmbeddedService Messaging Bootstrap may not function correctly with this native JS function modified: window.removeEventListener @ https://assets.testmuai.com/resources/js/salesforce_chatwidget.js:26
+[   11163ms] [LOG] Received the onEmbeddedMessagingReady event… @ https://assets.testmuai.com/resources/js/sf_chat.js:7
