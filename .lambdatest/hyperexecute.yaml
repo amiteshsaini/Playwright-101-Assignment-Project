@@ -1,0 +1,20 @@
+version: 0.1
+# test
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+
+runson: win
+
+pre:
+  - npm install
+
+testSuites:
+  - name: Playwright Tests
+    testRunnerCommand: npx playwright test
+
+cacheDirectories:
+  - node_modules
+
+post:
+  - echo "Playwright execution completed"
